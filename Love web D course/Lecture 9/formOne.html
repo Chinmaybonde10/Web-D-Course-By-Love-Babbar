@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+       
+    </style>
+   
+</head>
+<body>
+
+    <h2>Event Regestration</h2>
+
+    <br/>
+    <br/>
+    <form>
+        <label for="name">Name:</label>
+        
+        <br/>
+        <input type="text" id="name" name="name">
+        <br/>
+        <br/>
+
+        <label for="email">Email:</label>
+        <br/>
+        <input type="email" id="email" name="email">
+
+        <br/>
+        <br/>
+
+        <label for="phone">Phone:</label>
+        <br/>
+        <input type="tel" id="phone" name="phone">
+
+        <br/>
+        <br/>
+
+        <label for="occupation">Occupation:</label>
+        <br/>
+        <select name="occupation" id="occupation" multiple>
+            <option value="cook">Cook</option>
+            <option value="actor">Actor</option>
+            <option value="executive">Executive</option>
+            <option value="masseuse">Masseuse</option>
+            <option value="transponstar">Transponstar</option>
+            <option value="dinasours">Dinasours</option>
+        </select>
+
+        
+        <br/>
+        <br/>
+
+        <label for="counter1">Years of Experience</label>
+        <input type="number" name="counter" id="counter1" min="0" max="50">
+
+        <br/>
+        <br/>
+        
+        <fieldset>
+            <legend>Topic of Interest:</legend>
+
+            <input type="radio" name="interest" id="html">
+            <label for="html">HTML</label>
+           
+
+            
+        <br/>
+        <br/>
+
+        <input type="radio" name="interest" id="html">
+            <label for="css">CSS</label>
+        
+            
+
+        <br/>
+        <br/>
+
+        <input type="radio" name="interest" id="js">
+        <label for="js">JavaScript</label>
+        
+        </fieldset>
+
+        
+        <br/>
+        <br/>
+
+        <label for="comment">Comments:</label>
+        <br/>
+        <textarea name="comments" id="comment" cols="30" rows="10"></textarea>
+        
+        <br/>
+        <br/>
+        <input type="submit" name="submit" id="submit" value="Register">
+    </form>
+    
+</body>
+</html>
